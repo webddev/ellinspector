@@ -1,0 +1,86 @@
+.api {
+  margin-top: 100px;
+  margin-bottom: 170px;
+  @media (max-width: 1199px) {
+    margin-top: 60px;
+    margin-bottom: 150px;
+  }
+  @media (max-width: 991px) {
+    margin-top: 0;
+    margin-bottom: 135px;
+  }
+  @media (max-width: 767px) {
+    margin-bottom: 100px;
+  }
+  @media (max-width: 575px) {
+    margin-bottom: 40px;
+  }
+
+  p {
+    word-wrap: break-word;
+    max-width: 1126px;
+    @media (max-width: 575px) {
+      font-size: 0.8rem;
+    }
+  }
+  b {
+    @media (max-width: 575px) {
+      font-size: 0.9rem;
+    }
+  }
+  h2 {
+    margin-bottom: 50px;
+    margin-top: 70px;
+    @media (max-width: 767px) {
+      margin-bottom: 30px;
+      margin-top: 30px;
+    }
+    @media (max-width: 575px) {
+      font-size: $mobiletitle;
+      margin-top: 15px;
+      margin-bottom: 25px;
+    }
+  }
+  h3 {
+    font-size: $mobiletitle;
+    font-weight: bold;
+    @media (max-width: 575px) {
+      font-size: 1.2rem;
+    }
+  }
+  a {
+    color: $mainblue;
+    font-size: 1.7rem;
+    font-weight: bold;
+    @media (max-width: 575px) {
+      font-size: 0.8rem;
+    }
+  }
+  .blue-text {
+    color: $mainblue;
+    font-weight: bold;
+    display: inline;
+  }
+  .apikey {
+    display: block;
+    font-size: 1.7rem;
+    line-height: 1.2;
+    font-weight: bold;
+    margin-bottom: 50px;
+    @media (max-width: 767px) {
+      margin-bottom: 30px;
+      font-size: 1.3rem;
+    }
+    @media (max-width: 575px) {
+      font-size: 0.8rem;
+      margin-bottom: 20px;
+    }
+  }
+}
+.footer-logo {
+  img {
+    @media (max-width: 1199px) {
+      max-width: 120px;
+    }
+  }
+}
